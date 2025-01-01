@@ -19,6 +19,7 @@ public class TMUberUI
     TMUberSystemManager tmuber = new TMUberSystemManager();
     
     Scanner scanner = new Scanner(System.in);
+    System.out.print("\nWelcome to TMUber! Enter any command to begin.\n");
     System.out.print(">");
 
     // Process keyboard actions
@@ -33,8 +34,10 @@ public class TMUberUI
           continue;
         }
         // Quit the App
-        else if (action.equalsIgnoreCase("Q") || action.equalsIgnoreCase("QUIT"))
+        else if (action.equalsIgnoreCase("Q") || action.equalsIgnoreCase("QUIT")){
+          System.out.print("\nThank you for using TMUber! See you next time.\n\n");
           return;
+        }
         // Print all the registered drivers
         else if (action.equalsIgnoreCase("DRIVERS"))  // List all drivers
         {
