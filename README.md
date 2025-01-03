@@ -1,7 +1,7 @@
 # TMUber-System
 A ride-sharing application that simulates and manages users, drivers, and service requests, featuring queue-based request handling, error management, and data organization with maps and inheritance.
 
-Upon running the program, users will be prompted to enter one of 19 available commands to begin. It is recommended to **load users and drivers before proceeding with other actions.**
+**The program is run from the TMUberUI file.** Upon running the program, users will be prompted to enter one of 19 available commands to begin. It is recommended to **load users and drivers before proceeding with other actions.**
 
 ## Commands
 
